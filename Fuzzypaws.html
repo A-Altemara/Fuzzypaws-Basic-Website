@@ -1,0 +1,167 @@
+<!DOCTYPE html> 
+<Html>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+
+  <Main>
+    <section class="card">
+      
+      <img class="thor"
+           src="https://images.unsplash.com/photo-1511044568932-338cba0ad803?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGNhdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60" 
+           alt="This is an image of an orange fuzzy kitty with a curled paw near their face."
+           >
+        <h1>FuzzyPaws Enterprises</h1>
+      
+        <p class="description">The Kitties are fluffy and cuddles are short in supply.  Other things happen as the mood strikes but the kitties are a constant.</p>
+  
+        <!-- links tag goes Here-->
+       <div class="links">
+        <a href= "https://www.gofromm.com/" target="_blank">&#127858;</a>
+        <a href= "https://www.youtube.com/c/Kittisaurus" target="_blank">&#128571;</a>
+        <a href= "https://www.guildwars2.com/en/" target="_blank">&#127918;</a>
+      </div>  
+    </section>
+    
+    <section>
+      <div class="divisionsContainer">
+         <h2> Divisions </h2>
+        <div class="divisionRow">
+         <div class="divisions brew"> 
+           <img 
+                   src="
+                        https://images.unsplash.com/photo-1623509875139-b8fafe315fcd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80"
+                 alt= "Picture of half empty bottle with a lable with a cat on it"
+                 >
+            <p>
+           Brewery
+           </p>
+         </div>
+         <div class="divisions jewel">
+        <img 
+                 src=
+             "https://images.unsplash.com/photo-1599156614743-6ad862df7f0c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"
+               alt= "Picture of a gray cat with jewelry draped over it"
+               >
+         <p>
+           Jewelry
+         </p>
+           </div>
+         <div class="divisions tail">
+          <img
+               src=
+          "https://images.unsplash.com/photo-1594296281709-7a73c2076ca8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+               Alt= "Picture of gray and white kitty laying on sewing patterns and fabric"
+          >
+         <p>
+           Tailoring
+         </p>
+           </div>
+        </div>
+       </div>
+  
+    </section>
+    
+    <Style>
+
+      
+body {
+  margin: 0;
+  outline: 1px solid red;
+}
+
+Main {
+  background-color: #b15cdb;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 400px;
+  background-color: #f0f2e9;
+  padding: 32px;
+  border-radius: 10px;
+  text-align: center;
+
+}
+
+h1 {
+  color: BLack; 
+  font-size: 32px; 
+  font-family: 'Lato', sans-serif;
+  margin: 8px;
+ 
+}
+.description {
+  color: #ed7207;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+img{
+  /* width: ; */
+  height: 140px;
+  border-radius: 9999px;
+}
+
+/* .links {
+ 
+} */
+
+a {
+  margin: 8px;
+}
+
+.divisionsContainer {
+/*   outline: 1px solid white;
+  border: 1px solid red; */
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.divisions {
+/*   outline: 1px solid red; */
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  transition: all 2s ease-out 1s;
+}
+
+.divisions:hover {
+  transform: scale(1.1);
+  color: green;
+}
+
+h2 {
+  color: black; 
+  font-size: 32px; 
+  font-family: 'Lato', sans-serif;
+  margin: 8px;
+  text-shadow: 2px 2px 1px orange;
+}
+/* 3px 3px 1px yellow */
+
+.divisionRow {
+  display: flex;
+  flex-direction: row;
+/*   font-size: 250px; */
+}
+    </Style>
+
+
+  </Main>
+  
+</body>
+
+
+</Html>

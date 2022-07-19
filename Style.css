@@ -1,0 +1,99 @@
+/*this is the new comment format - Cascading style sheets--  we get synatx propery:value; */
+
+.body {
+  margin: 0;
+  outline: 1px solid red;
+}
+
+.Main {
+  background-color: #b15cdb;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  outline: 1px solid red;
+
+}
+
+.card {
+  width: 400px;
+  background-color: #f0f2e9;
+  padding: 32px;
+  border-radius: 10px;
+  text-align: center;
+  outline: 1px solid red;
+
+}
+
+.h1 {
+  color: BLack; 
+  font-size: 32px; 
+  font-family: 'Lato', sans-serif;
+  margin: 8px;
+ 
+}
+.description {
+  color: #ed7207;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+.thor {
+  border-radius: 9999px;
+}
+
+.img {
+  /* width: 50px; */
+  height: 300px;
+  border-radius: 99px;
+   
+}
+
+/* .links {
+ 
+} */
+
+.a {
+  margin: 8px;
+}
+
+.divisionsContainer {
+  /* outline: 1px solid white;
+  border: 1px solid red; */
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.divisions {
+/*   outline: 1px solid red; */
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  transition: all 2s ease-out 1s;
+  outline: 1px solid red;
+
+  
+}
+
+.divisions:hover {
+  transform: scale(1.1);
+  color: green;
+}
+
+.h2 {
+  color: black; 
+  font-size: 32px; 
+  font-family: 'Lato', sans-serif;
+  margin: 8px;
+  text-shadow: 2px 2px 1px orange;
+}
+/* 3px 3px 1px yellow */
+
+.divisionRow {
+  display: flex;
+  flex-direction: row;
+/*   font-size: 250px; */
+}
